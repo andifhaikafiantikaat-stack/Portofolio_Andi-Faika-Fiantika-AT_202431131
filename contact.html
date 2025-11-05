@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kontak | Andi Fhaika Fiantika</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="Portofolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="contact">
+    <h2>Form Request Project</h2>
+    <form>
+      <label>Nama:</label>
+      <input type="text" name="nama" placeholder="Masukkan nama Anda" required>
+
+      <label>Email:</label>
+      <input type="email" name="email" placeholder="Masukkan email Anda" required>
+
+      <label>Jenis Layanan:</label>
+      <select name="layanan">
+        <option value="">-- Pilih --</option>
+        <option value="website">Pembuatan Website</option>
+        <option value="aplikasi">Aplikasi Mobile</option>
+        <option value="konsultasi">Konsultasi Teknologi</option>
+      </select>
+
+      <label>Deskripsi Proyek:</label>
+      <textarea name="pesan" rows="5" placeholder="Ceritakan proyek yang Anda inginkan..."></textarea>
+
+      <label>
+        <input type="checkbox" required> Saya setuju dengan syarat dan ketentuan
+      </label>
+
+      <button type="submit">Kirim</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Andi Fhaika Fiantika | <a href="https://itpln.ac.id" target="_blank">ITPLN</a></p>
+  </footer>
+</body>
+</html>
